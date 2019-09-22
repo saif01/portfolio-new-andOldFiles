@@ -1,0 +1,44 @@
+/*!
+
+Licensed under the Syful Islam
+
+Copyright (c) 2019:---- syful.cse.bd@gmail.com
+ */
+
+
+/*Text Effect*/
+.header_saif {
+    text-size:72px;
+    text-align: center;
+    font-weight:  100;
+    font-size: 6rem;
+    color: red;
+    background: -webkit-linear-gradient(92deg, #000000, #FF1493);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 10s infinite linear;
+  }
+  
+  @-webkit-keyframes hue {
+    from {
+      -webkit-filter: hue-rotate(0deg);
+    }
+    to {
+      -webkit-filter: hue-rotate(-360deg);
+    }
+  }
+
+
+/*For Form Validation CSS*/
+  .box
+  {
+   max-width:600px;
+   width:100%;
+   margin: 0 auto;;
+  }
+  .form-group p
+  {
+      color:#a94442;
+  }
+  
+
